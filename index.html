@@ -16,10 +16,11 @@
           <span class="navbar-brand mb-0 h1"> <i class="fa fa-instagram fa-2x" aria-hidden="true"></i></span>
           <div>
             <!-- Button trigger modal -->
+            <div class="text-center">
 <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
    Create a new post
   </button>
-  
+</div>
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -31,6 +32,11 @@
         <div class="modal-body">
           ...
         </div>
+        <div class="text-center">
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+             Create a new post
+            </button>
+          </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
           <button type="button" class="btn btn-primary">Save changes</button>
@@ -38,8 +44,19 @@
       </div>
     </div>
   </div>
-          </div>
+  <div class="dropdown">
+    <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-cog" aria-hidden="true"></i>
+
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+    </ul>
+  </div>
         </div>
+          </div>
         
       </nav>
 
